@@ -1,4 +1,4 @@
 function hello_world_function(msg)
 
-fprintf("Hello World!")
-fprintf("Custom message: " + msg)
+fprintf("Hello World!\n")
+fprintf("Custom message: " + msg + "\n")

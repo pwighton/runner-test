@@ -14,4 +14,4 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v0
         with:
-          command: hello_world_function('parameter test!!!!1!!one')
+          command: hello_world; hello_world_function('parameter test!!!!1!!one')
